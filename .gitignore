@@ -1,0 +1,6 @@
+### all ignore ###
+/*
+/.**
+
+!/README.md
+!.gitignore

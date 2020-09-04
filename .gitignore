@@ -2,5 +2,6 @@
 /*
 /.**
 
+### not ignore ###
 !/README.md
 !.gitignore

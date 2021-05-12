@@ -102,3 +102,6 @@ source $ZSH/oh-my-zsh.sh
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
+export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"

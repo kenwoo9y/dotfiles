@@ -99,10 +99,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+export JAVA_HOME="/usr/libexec/java_home -v 11"
 export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
 export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export GOPATH=$HOME/ghq
 export PATH="$PATH:$GOPATH/bin"
-export JAVA_HOME="/usr/libexec/java_home -v 11"

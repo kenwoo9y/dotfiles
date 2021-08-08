@@ -105,3 +105,4 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export GOPATH=$HOME/ghq
 export PATH="$PATH:$GOPATH/bin"
+export JAVA_HOME="/usr/libexec/java_home -v 11"

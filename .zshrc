@@ -106,3 +106,9 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export GOPATH=$HOME/ghq
 export PATH="$PATH:$GOPATH/bin"
+
+if [ `uname` = "Darwin" ]; then
+    if command -v pyenv 1>/dev/null 2>&1; then
+      eval "$(pyenv init -)"
+    fi
+fi

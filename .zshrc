@@ -106,6 +106,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias vi="nvim"
+alias vim="nvim"
+alias view="nvim -R"
+
 export JAVA_HOME="$(/usr/libexec/java_home -v 11)"
 export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
 export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
